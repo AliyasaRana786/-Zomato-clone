@@ -1,0 +1,39 @@
+.PopularLocation {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.PopularLocation_card {
+    padding: 15px 0 15px 22px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.PopularLocation_card p {
+    font-size: 19px;
+}
+
+.PopularLocation_card span {
+    font-size: 17px;
+}
+
+.poploc {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .PopularLocation_card {
+        padding: 15px 0 15px 20px;
+    }
+
+    .poploc {
+        margin-bottom: 20px;
+    }
+
+    .PopularLocation {
+        margin: 0;
+    }
+}

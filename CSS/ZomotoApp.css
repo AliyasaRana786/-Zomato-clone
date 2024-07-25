@@ -1,0 +1,83 @@
+.mobile_phone_img img {
+    height: 350px;
+}
+
+.mobile_phone_img {
+    text-align: center;
+
+}
+
+.logo_btn_bar img {
+    height: 40px;
+}
+
+.ZomotoApp {
+    width: 100%;
+    background-color: #FFFBF7;
+    padding: 70px 0;
+    margin: 60px 0;
+}
+
+.inputbar input {
+    border: 1px solid rgb(201, 200, 200);
+    outline: 0;
+    border-radius: 7px;
+    height: 45px;
+    padding-left: 3px;
+    width: 300px;
+    padding-left: 8px;
+}
+
+.inputbar button {
+    border: 0;
+    outline: 0;
+    background-color: #EF4F5F;
+    color: #fff;
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 5px;
+
+
+}
+
+
+.zomoto_form h2 {
+    font-size: 45px;
+}
+
+.zomoto_form p {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile_phone_img img {
+        height: 300px;
+
+    }
+
+    .mobile_phone_img {
+        text-align: center;
+    }
+
+    .inputbar input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .inputbar button {
+
+        width: 97%;
+    }
+
+    .ZomotoApp {
+        padding: 25px 0;
+    }
+
+    .zomoto_form h2 {
+        font-size: 30px;
+    }
+
+    .ZomotoApp {
+        margin: 15px 0;
+    }
+}

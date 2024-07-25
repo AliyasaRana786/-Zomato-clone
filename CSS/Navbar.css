@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fangsong;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.nabvars {
+    border-top: 2px solid rgba(60, 64, 67, 0.15);
+    background-color: #fff;
+    padding: 15px 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    z-index: 3;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.navbar_searchbar input {
+    border: 0;
+    outline: 0;
+    width: 480px;
+}
+
+.navbar_searchbar {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.navbar_btn {
+    text-align: right;
+}
+
+.navbar_btn button {
+    border: 1px solid #7a7a7a;
+    outline: 0;
+    background-color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.navbar_logo h1 {
+    font-weight: 800;
+
+}
+
+.navbar_logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        grid-template-columns: auto auto;
+        height: auto;
+    }
+
+    .navbar_searchbar {
+        grid-column: 2;
+        grid-row: 2;
+        grid-column: 1/span 2;
+        width: 100%;
+        margin-top: 13px;
+        height: 50px;
+        width: 100%px;
+    }
+
+    .navbar_searchbar input {
+        width: 100%;
+    }
+
+
+}

@@ -1,0 +1,48 @@
+.Collections {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Collectionscard_img img {
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Collectionscard {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+}
+
+.Collectionscard_name p {
+    font-size: 19px;
+    margin-bottom: 20px;
+
+}
+
+
+.coll_des {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .Collectionscard_img img {
+        width: 100%;
+    }
+
+    .Collections {
+        margin: 0;
+    }
+
+    .Collectionscard_name h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .Collectionscard_name p {
+        font-size: 18px;
+    }
+}

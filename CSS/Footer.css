@@ -1,0 +1,36 @@
+.icon {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logo_1 {
+    height: 40px;
+    margin-top: 15px;
+}
+
+.footers {
+    padding: 50px 0;
+    background-color: #F8F8F8;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 8px;
+
+}
+
+.footer_des {
+    border-top: 1px solid rgb(197, 195, 195);
+    padding-top: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footers {
+        padding: 40px 5px;
+    }
+}

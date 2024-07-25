@@ -1,0 +1,9 @@
+.SearchProductPage {
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .SearchProductPage {
+        margin-top: 160px;
+    }
+}
