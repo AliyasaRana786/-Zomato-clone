@@ -71,22 +71,22 @@ export default function Navbar({ setData }) {
                 <section className='productfilter'>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => setData(items)}>Filter</p>
                             </div>
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => handleclick('pure-veg')}>Pure-Veg</p>
                             </div>
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => handleclick('non-veg')}>Non-Veg</p>
                             </div>
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => handlerating(4.0)}>R :4.0+</p>
                             </div>
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => handleclicks('club')}>Club</p>
                             </div>
-                            <div className="col-lg-1 col-md-4 col-6">
+                            <div className="col-lg-1 col-md-4 col-4">
                                 <p className='profilter mb-2' onClick={() => handleclickss('restaurants')}>hotels</p>
                             </div>
                         </div>
